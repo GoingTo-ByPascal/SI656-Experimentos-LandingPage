@@ -1,0 +1,11 @@
+@import "all.css";
+
+.nav_item_news{
+    background: var(--verde_oscuro);
+    border-bottom: 3px solid white;
+}
+
+.section{
+    margin-top: 45px;
+    background: white;
+}
