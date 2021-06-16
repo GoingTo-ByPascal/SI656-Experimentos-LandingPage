@@ -193,8 +193,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4>Osaka, Japon</h4>
-                  <small>5 dias</small>
-                  <p>El castillo, templos, baños, dojos y mucho mas.</p>
+                  <small>5 days</small>
+                  <p>The castle, temples, baths, dojos and much more.</p>
                 </div>
                 <div class="media-price">
                   <h4 class="text-primary">$25/day</h4>
@@ -220,8 +220,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4>Transilvania,Rumania </h4>
-                  <small>2 dias</small>
-                  <p>Conoce la casa de Drácula</p>
+                  <small>2 days</small>
+                  <p>Get to know Dracula's house</p>
                 </div>
                 <div class="media-price">
                   <h4 class="text-primary"> $34/day</h4>
@@ -240,8 +240,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4>El Vaticano</h4>
-                  <small>2 dias</small>
-                  <p>Basílica, museos, capillas, castillos</p>
+                  <small>2 days</small>
+                  <p>Basilica, museums, chapels, castles</p>
                 </div>
                 <div class="media-price">
                   <h4 class="text-primary">$47/day</h4>
@@ -257,8 +257,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4>Sidney, Australia</h4>
-                  <small>5 dias</small>
-                  <p>La opera, playas, montañas, fauna.</p>
+                  <small>5 days</small>
+                  <p>The opera, beaches, mountains, fauna.</p>
                 </div>
                 <div class="media-price">
                   <h4 class="text-primary">$60/day</h4>
@@ -567,7 +567,16 @@
   <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
+  
   <!-- <script src="js/skrollr.min.js"></script> -->
+  
+  <script>
+  (function() {
+    var src = screen.width > 768 ? "skrollr.min.js": "";
+    document.write('<script src="js/' + src + '"><\/script>');
+  })();
+</script>
+
   <script src="js/main.js"></script>
   <style>
     @media only screen and (min-width: 768px){
