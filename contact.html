@@ -79,7 +79,7 @@
   </section>
   <!--================Hero Banner SM Area End =================-->
 
-  <div style="display: flex; flex-direction: row; justify-content: center;">
+  <!-- <div style="display: flex; flex-direction: row; justify-content: center;">
     <div>
       <img class="" src="img/services.png" style=" 
     width: 95%;
@@ -90,8 +90,13 @@
     " alt="">
     </div>
 
-  </div>
+  </div> -->
 
+  <div class="ajust" style="display:flex; ">
+      <img class="serv" src="img/services1.png" alt="">
+      <img class="serv" src="img/services2.png" alt="">
+      <img class="serv" src="img/services3.png" alt="">
+  </div>
 </section>
 
 
@@ -209,6 +214,39 @@
   <!-- <script src="js/skrollr.min.js"></script> -->
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/main.js"></script>
+
+  <style>
+    @media only screen and (max-width: 767px){
+      .ajust{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center; 
+        padding: 30px 30px 0px 30px;
+        flex-direction:column; 
+        align-items: center;
+        }
+        
+        .serv{
+        width: 65%;
+        margin: 15px;
+    }
+    }
+
+
+    @media only screen and (min-width: 768px){
+      .ajust{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center; 
+        padding: 30px 30px 0px 30px;}
+
+        .serv{
+        width: 20%;
+        margin: 15px;
+    }
+    }
+
+  </style>
 </body>
 
 </html>
